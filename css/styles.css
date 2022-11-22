@@ -1,0 +1,46 @@
+body {
+    max-width: auto;
+    max-height: 100vh;
+    background: rgb(32,97,102);
+    background: linear-gradient(329deg, rgba(32,97,102,1) 39%, rgba(0,255,237,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+table {
+   width: 90%;
+   margin: auto;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+   text-align: center;
+   border-collapse: collapse;
+   border: 1px solid #e2f2f66d;
+}
+
+thead {
+    background-color: #e2f2f66d;
+    
+}
+th, td {
+    padding: 20px 40px;
+    border-bottom: 1px solid #e2f2f66d;
+}
+
+#pdf {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    color: white;
+    background-color:transparent;
+    float: right;
+    border: 1px solid #e2f2f66d;
+
+}
