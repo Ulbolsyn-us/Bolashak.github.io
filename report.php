@@ -11,12 +11,12 @@
                 $this->Cell(30,10,'Report',1,0,'C');
                 $this->Ln(20);
             }
-            function Footer()
-        {
-            $this->SetY(-15);
-            $this->SetFont('Times','',12);
-            $this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
-        }
+         function Footer()
+            {
+                $this->SetY(-15);
+                $this->SetFont('Times','',12);
+                $this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
+            }
     }
 
     $result = mysqli_query($connection, "SELECT `id`,`iin`,`goal`, `date`, `time`, `operation` FROM `users`");
